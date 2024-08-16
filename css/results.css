@@ -1,0 +1,61 @@
+body {
+	background: #eaf8ff url('../images/result_bg.jpg') no-repeat top center;
+}
+
+.result-character {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+
+.result {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.result .box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+	margin-bottom: 15px;
+	min-height: 70px;
+	line-height: 1.4;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	background: white;
+	border-radius: 20px;
+}
+
+.jobs {
+	display: flex;
+	gap: 10px;
+	height: 200px;
+}
+
+.jobs .job {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	line-height: 1.4;
+	font-size: 30px;
+	font-weight: 700;
+	background: #fff url('../images/result_star.png') no-repeat center center;
+	border: 1px solid #ffe603;
+	border-radius: 20px;
+}
+
+.result h3 {
+	margin: 40px auto 20px;
+	line-height: 1.4;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.result .lecture img {
+	margin: 0 auto 40px;
+	width: 100%;
+}

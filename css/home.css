@@ -1,0 +1,13 @@
+body {
+	background: #f6fcff url(../images/main_bg.jpg) no-repeat top center;	
+}
+
+img {
+	display: block;
+}
+
+.character {
+	margin: 0 auto 40px;
+	width: 100%;
+	max-width: 360px;
+}
